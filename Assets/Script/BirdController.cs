@@ -37,7 +37,17 @@ public class BirdController : MonoBehaviour
 
     public void Die()
     {
+        if (isDead) return;
+
         isDead = true;
-        Debug.Log("Game Over");
+        GameManager.Instance.GameOver();
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("ScoreZone"))
+        {
+            ScoreManager.Instance.AddScore(1);
+            Destroy(collision.gameObject);
+        }
     }
 }
