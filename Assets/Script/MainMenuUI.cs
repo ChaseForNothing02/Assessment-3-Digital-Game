@@ -8,6 +8,12 @@ public class MainMenuUI : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("ClassicMode");
     }
+    public void StartCoinGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("CoinChallengeMode");
+    }
+
 
     public void QuitGame()
     {

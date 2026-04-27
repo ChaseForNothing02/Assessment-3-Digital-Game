@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 2167832c38f13f14aace5144ab6746cd
+  - enabled: 1
+    path: Assets/Scenes/CoinChallengeMode.unity
+    guid: 20e891bf28e9e1c469fd1a6f18a0f33a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

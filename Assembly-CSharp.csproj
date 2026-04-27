@@ -61,12 +61,16 @@
     <Analyzer Include="D:\3D\2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\CoinPickup.cs" />
     <Compile Include="Assets\Script\ScoreManager.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\MainMenuUI.cs" />
     <Compile Include="Assets\Script\BirdController.cs" />
     <Compile Include="Assets\Script\PipeMover.cs" />
+    <Compile Include="Assets\Script\GameSpeedManager.cs" />
+    <Compile Include="Assets\Script\CoinSpawner.cs" />
     <Compile Include="Assets\Script\PipeSpawner.cs" />
+    <Compile Include="Assets\Script\CoinManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
