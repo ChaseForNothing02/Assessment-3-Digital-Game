@@ -14,5 +14,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CoinChallengeMode.unity
     guid: 20e891bf28e9e1c469fd1a6f18a0f33a
+  - enabled: 1
+    path: Assets/Scenes/ThunderstormMode.unity
+    guid: b8b80cd307e44dd4fb2a0afdfbccd554
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

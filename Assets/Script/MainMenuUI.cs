@@ -13,6 +13,11 @@ public class MainMenuUI : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("CoinChallengeMode");
     }
+    public void StartThunderstormGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("ThunderstormMode");
+    }
 
 
     public void QuitGame()
