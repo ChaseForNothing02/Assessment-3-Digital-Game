@@ -68,9 +68,9 @@
     <Compile Include="Assets\Script\CoinPickup.cs" />
     <Compile Include="Assets\Script\ScoreManager.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\DarkstormEffect.cs" />
     <Compile Include="Assets\Script\MainMenuUI.cs" />
     <Compile Include="Assets\Script\BirdController.cs" />
-    <Compile Include="Assets\Script\ThunderstormEffect.cs" />
     <Compile Include="Assets\Script\PipeMover.cs" />
     <Compile Include="Assets\Script\GameSpeedManager.cs" />
     <Compile Include="Assets\Script\CoinSpawner.cs" />

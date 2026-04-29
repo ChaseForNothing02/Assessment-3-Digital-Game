@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverPanel;
     public TextMeshProUGUI finalScoreText;
+    public DarkStormEffect darkStormEffect;
 
     private bool isGameOver = false;
 
@@ -30,6 +31,11 @@ public class GameManager : MonoBehaviour
         if (finalScoreText != null)
         {
             finalScoreText.text = "Final Score: " + ScoreManager.Instance.score;
+        }
+
+        if (darkStormEffect != null)
+        {
+            darkStormEffect.StopStormAndShowScreen();
         }
 
         Time.timeScale = 0f;
