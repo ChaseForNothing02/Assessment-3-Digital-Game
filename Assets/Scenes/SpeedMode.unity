@@ -790,9 +790,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c813dc8750bf04c8500ade2d882071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pipePrefab: {fileID: 3988604454365323636, guid: 69ee5c394d8f5f7469c16ae73969684c, type: 3}
+  pipePrefab: {fileID: 3988604454365323636, guid: 56cab566067f0d248a79581974b8174a, type: 3}
   coinPrefab: {fileID: 0}
-  spawnInterval: 2
+  spawnInterval: 1
   minY: -1.5
   maxY: 1.5
   coinXOffset: 0
