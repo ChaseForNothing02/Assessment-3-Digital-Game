@@ -18,8 +18,11 @@ public class MainMenuUI : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("ThunderstormMode");
     }
-
-
+    public void StartSpeedGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("SpeedMode");
+    }
     public void QuitGame()
     {
         Application.Quit();

@@ -59,6 +59,7 @@
     <UnityVersion>2023.2.10f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\lingy\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.2.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -68,6 +69,7 @@
     <Compile Include="Assets\Script\ScoreManager.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\MainMenuUI.cs" />
+    <Compile Include="Assets\Script\PipeSpawnerSpeed.cs" />
     <Compile Include="Assets\Script\BirdController.cs" />
     <Compile Include="Assets\Script\ThunderstormEffect.cs" />
     <Compile Include="Assets\Script\PipeMover.cs" />
