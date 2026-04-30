@@ -23,9 +23,5 @@ public class MainMenuUI : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("SpeedMode");
     }
-    public void QuitGame()
-    {
-        Application.Quit();
-        Debug.Log("Quit Game");
-    }
+    
 }
