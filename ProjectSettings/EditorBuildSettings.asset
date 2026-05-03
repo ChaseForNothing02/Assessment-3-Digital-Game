@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SpeedMode.unity
     guid: ca2baac66f03eaa4299f5ee2f43125bc
+  - enabled: 1
+    path: Assets/Scenes/WindTunnelEscape.unity
+    guid: 951f7064a9f7a4b4ba806cd8a268c648
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

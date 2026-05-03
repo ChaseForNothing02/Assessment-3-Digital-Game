@@ -6,7 +6,7 @@ public class MainMenuUI : MonoBehaviour
     public void StartGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("ClassicMode");
+        SceneManager.LoadScene("WindTunnelEscape");
     }
     public void StartCoinGame()
     {
