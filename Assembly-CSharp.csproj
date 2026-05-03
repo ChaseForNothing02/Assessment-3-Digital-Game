@@ -67,11 +67,17 @@
   <ItemGroup>
     <Compile Include="Assets\Script\CoinPickup.cs" />
     <Compile Include="Assets\Script\ScoreManager.cs" />
+    <Compile Include="Assets\Script\WindTunnelManager.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\DarkstormEffect.cs" />
     <Compile Include="Assets\Script\MainMenuUI.cs" />
+    <Compile Include="Assets\Script\BackToMenuButton.cs" />
+    <Compile Include="Assets\Script\WindLevelButtons.cs" />
     <Compile Include="Assets\Script\BirdController.cs" />
+    <Compile Include="Assets\Script\WindGateTrigger.cs" />
+    <Compile Include="Assets\Script\CoinCollect.cs" />
     <Compile Include="Assets\Script\PipeMover.cs" />
+    <Compile Include="Assets\Script\BirdWindReceiver.cs" />
     <Compile Include="Assets\Script\GameSpeedManager.cs" />
     <Compile Include="Assets\Script\CoinSpawner.cs" />
     <Compile Include="Assets\Script\PipeSpawner.cs" />
