@@ -958,7 +958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 726066200}
   finalScoreText: {fileID: 140341455}
-  darkStormEffect: {fileID: 1968371072}
+  darkStormEffect: {fileID: 0}
 --- !u!4 &820271954
 Transform:
   m_ObjectHideFlags: 0
@@ -1153,9 +1153,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pipePrefab: {fileID: 3988604454365323636, guid: 69ee5c394d8f5f7469c16ae73969684c, type: 3}
   coinPrefab: {fileID: 0}
-  spawnInterval: 3
-  minY: -1.5
-  maxY: 1.5
+  spawnInterval: 1
+  minY: -3
+  maxY: 3
   coinXOffset: 0
   coinYOffsetRange: 0.3
 --- !u!1 &912921225
@@ -1234,7 +1234,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 09c5ba7fbdb7d6f49a7d1c9e120744e7, type: 3}
   m_Resource: {fileID: 8300000, guid: 09c5ba7fbdb7d6f49a7d1c9e120744e7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1633,7 +1633,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7450,7 +7450,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1968371073}
-  - component: {fileID: 1968371072}
   - component: {fileID: 1968371071}
   m_Layer: 0
   m_Name: WeatherManager
@@ -7473,28 +7472,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   darknessOverlay: {fileID: 219347422}
   thunderAudio: {fileID: 1271564525}
-  lightningInterval: 2
+  lightningInterval: 1
   thunderDelay: 0.2
-  normalDarkAlpha: 1
-  lightningDarkAlpha: 0.15
-  visibleDuration: 0.8
-  fadeBackDuration: 0.4
---- !u!114 &1968371072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968371070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28c57701aaefa3347864c527468c367c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  darknessOverlay: {fileID: 0}
-  thunderAudio: {fileID: 0}
-  lightningInterval: 3
-  thunderDelay: 0.25
   normalDarkAlpha: 1
   lightningDarkAlpha: 0.15
   visibleDuration: 0.8

@@ -1008,9 +1008,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pipePrefab: {fileID: 3988604454365323636, guid: 69ee5c394d8f5f7469c16ae73969684c, type: 3}
   coinPrefab: {fileID: 0}
-  spawnInterval: 3
-  minY: -1.5
-  maxY: 1.5
+  spawnInterval: 1
+  minY: -3
+  maxY: 3
   coinXOffset: 0
   coinYOffsetRange: 0.3
 --- !u!1 &912921225
